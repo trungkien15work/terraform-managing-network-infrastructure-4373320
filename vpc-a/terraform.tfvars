@@ -9,7 +9,7 @@ private_rtb    = "rtb-private"
 public_sg      = "grp-public"
 
 # instance values
-instance_type  = "t3.nano"
+instance_type  = "t2.micro"
 ami_id         = "ami-0f0ba639982a32edb"
 instances      = ["ec2-public", "ec2-private"]
 public_key     = "keys/ec2.pub"
